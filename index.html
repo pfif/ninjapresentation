@@ -253,6 +253,67 @@
 	      <li>Action prend en charge la creation du tableau</li>
 	  </aside>
 	</section>
+	
+	<!-- SVG Converter -->
+	<section>
+	  <aside class="notes">
+	    <p>Interet : Geochronologiste exportent leur graphiques
+	      dans le format qu'ils souhaitent</p>
+	    <p>Adobe Illustrator/Inkscape</p>
+	  </aside>
+	</section>
+
+	<section>
+	  <aside class="notes">
+	    <p>Approche choisie : transforner directement le rendu de JavaFX en SVG</p>
+	    <p>Base deja implemente par John</p>
+	    <ul>
+	      <li>
+		Pour:
+		<ul>
+		  <li>Réutilisable</li>
+		  <li>Une seule forme de rendu, a un seul endroit : Pas besoin de recoder placement, et apparences...</li>
+		</ul>
+	      </li>
+	      <li>
+		Contre : ... On a besoin de JavaFX dans n'importe quelle situation pour rendre un graphique. (Web generator/Application mobile)
+	      </li>
+	    </ul>
+	  </aside>
+	</section>
+
+	<section>
+	  <aside class="notes">
+	    JavaFX : Hierarchie generale.
+	    <ul>
+	      <li>Node : Base de tous les elements de Javafx</li>
+	      <li>Systeme de hierarchie codé à ce niveau</li>
+	      <li>Utilisé par les classe heritant de nodes (Exemple : Les panneaux)</li>
+	      <li>Plupart des noeuds : composés neuds de bases (Bouton : rectangle/texte/fond)</li>
+	    </ul
+	  </aside>
+	</section>
+
+	<section>
+	  <aside class="notes">
+	    <p>Fonction recursive<br/>
+	    SI :</p>
+	    <ul>
+	      <li>Noeud est un parent : Explore recursivement ses autres noeuds</li>
+	      <li>Noeuds n'as pas d'enfants : Le rend en SVG</li>
+	    </ul>
+	  </aside>
+	</section>
+	
+	<section>
+	  <!-- before/after -->
+	  <aside class="notes">
+	    <p>MON JOB : Trouver les definitions d'element de base manquant au convertisseur ET corriger celle qui existe deja</p>
+	    <p>documentation + essais => QUELLE PROPRIETE GRAPHIQUES -> SVG</p>
+	    <p>Propiete trouvee : Commenter le before after</p>
+	  </aside>
+	</section>
+
 
       </div>
     </div>
