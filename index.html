@@ -179,6 +179,81 @@
 	  </aside>
 	</section>
 
+	<!-- Planning -->
+	<section>
+	  <aside class="notes">
+	    <ul>
+	      <li>Pas de planning en particulier. Methode agile</li>
+	      <li>stage rythmé par un evenement : Presentation aux australiens</li>
+	      <li>Fonction majeures :
+		Avant :
+		<ul>
+		  <li>ColumnSelectorView</li>
+		  <li>Export en SVG</li>
+		</ul>
+	      </li>
+	      <li>
+		Fpnction majeure :
+		Après :
+		<ul>
+		  <li>Convertion en FXML</li>
+		  <li>Customisation du graphique</li>
+		</ul>
+	    </ul>
+	  </aside>
+	</section>
+
+	<!--Fonctionnalités -->
+	
+	<!-- Column Selector View -->
+	<section>
+	  <aside class="notes">
+	    <h1>Le ColumnSelectorView</h1>
+	    <ul>
+	      <li>Changement de tableau (Avant : non libre|Apres:Autant de column que l'on veut)</li>
+	      <li>Il faut un outil pour choisir les colonnes ainsi que certaines informations sur les données</li>
+	    </ul>
+	  </aside>
+	</section>
+	
+	<section>
+	  <aside class="notes">
+	    <p>Comment est-ce que le columnselectordialog dit au graphique à quelle colonnes correspondent à quelles données</p>
+	    <ul>
+	      <li>Chaque graphiques prends un converter qui traduit les données qui lui sont passées en ellipses</li>
+	      <li>On passe des Record au graphique, qui en demande la conversion au converter.</li>
+	      <li>Le converter sort ensuite des Ellipses</li>
+	    </ul>
+	    <p>Le columnselectorview produit un converter et le passe au graphique</p>
+	  </aside>
+	</section>
+	
+	<section>
+	  <aside class="notes">
+	    <p>Au depart j'avais conçu une interface qui donnait la possibilité à n'importe quel objet de generer un graphique</p>
+	    <p>Classe adoptée par le tableau</p>
+	  </aside>
+	</section>
+	
+	<section>
+	  <aside class="notes">
+	    <!-- Illustration sur comment un action se transforme en bouton -->
+	    <ul>
+	      <li>MAIS : ControlsFX</li>
+	      <li>Actions : Objet qui fait quelque chose en reaction d'un signal à un utilisateur => Controleur</li>
+	      <li>Integré directement à l'interface</li>
+	    </ul>
+	  </aside>
+	</section>
+	
+	<section>
+	  <aside class="notes">
+	    <ul>
+	      <li>CSV transformé en dialog</li>
+	      <li>Action prend en charge la creation du tableau</li>
+	  </aside>
+	</section>
+
       </div>
     </div>
   </body>
