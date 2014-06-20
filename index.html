@@ -1,498 +1,433 @@
+<?xml version="1.0"?>
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Présentation de mon stage au laboratoire CIRDLES</title>
-
-    <meta name="description" content="La présentationde mon stage au
-				      college de Charleston dans le
-				      laboratoire CIRDLES."/>
+    <title>Pr&#xE9;sentation de mon stage au laboratoire CIRDLES</title>
+    <meta name="description" content="La pr&#xE9;sentationde mon stage au college de Charleston dans le laboratoire CIRDLES."/>
     <meta name="author" content="Florent Pastor"/>
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/reveal.min.css"/>
-    <link rel="stylesheet"
-	  href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/theme/default.css"
-	  id="theme"/>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/css/theme/default.css" id="theme"/>
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.6.2/lib/css/zenburn.css"/>
-
     <!--[if lt IE 9]>
-	<script src="lib/js/html5shiv.js"></script>
-	<![endif]-->
-    
-    <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/lib/js/head.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/js/reveal.min.js"></script>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+    <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/lib/js/head.min.js"> </script>
+    <script src="http://cdn.jsdelivr.net/reveal.js/2.6.2/js/reveal.min.js"> </script>
     <script>
-      window.onload = function(){
-      Reveal.initialize({history: true,
-      center: true,
-      width:1920,
-      height : 1080});
-      }
-    </script>
+window.onload = function(){
+	Reveal.initialize({history: true,
+			center: true,
+			width:1920,
+			height : 1080});
+}
+</script>
   </head>
-
   <body>
     <div class="reveal">
       <div class="slides">
-
-	<section>
-	  <aside class="notes">
-	    Sommaire
-	  </aside>
-	</section>
-
-	<!-- Introduction -->
-	<section>
-	  <aside class="notes">
-	    <ul>
-	      <li>Calendrier</li>
-	      <li>Integralite de existance terre <em>4.6 milliards
-	      d'année compressé en 365 jours : 145 année la
-	      seconde </em> => calendrier</li>
-	      <li>
-		Mettons quelques informations : 
-		<ul>
-		  <li>Apparitions de la vie : 27 mars</li>
-		  <li>Apparitions des animaux : 8 novembre</li>
-		  <li>Apparition des premiers humanoïde : 31
-		  décembre a midi</li>
-		  <li>Deux guerres mondiales : Dernière seconde</li>
-		</ul>
-	      </li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <ul>
-	      <li>Travail des géochronologistes : determiner l'âge
-	      d'objets terrestres</li>
-	      <li>Projet Topsoil : Génèrer des schémas pour
-	      géochronologistes</li>
-	      <li>Laboratoire CIRDLES</li>
-	      <li>12 avril => Aujourd'hui</li>
-	      <li>Chef : Dr. Jim Bowring | Partenaire : John Zeringue</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<!-- Explication du contexte -->
-
-	<section>
-	  <aside class="notes">
-	    <ul>
-	      <li>Eruption de volcan.</li>
-	      <ul>
-		<li>De la lave en sort</li>
-		<li>Mais aussi des Zircons</li>
-	      </ul>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Zircon :</p>
-	    <ul>
-	      <li>Capsule : une fois construit, plus rien n'en sort</li>
-	      <li>Bourré d'uranium</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Temps passe</p>
-	    <ul>
-	      <li>De nouvelles couche terrestres se forment</li>
-	      <li>Inside zircon : Uranium => plomb</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Scientifiques deterrent les zircons. calculent le rapport entre plomb et uranium.</p>
-	    <p>=> AGE DE LA COUCHE TERRESTRE</p>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Topsoil :</p>
-	    <ul>
-	      <li>Remplacant d'Isoplot
-		<ul>
-		  <li>Vieux plug-in d'Excel</li>
-		  <li>Plus mis à jour, fonctionne que sur de vieilles machines</li>
-		  <li>Non intégrable</li>
-		</ul>
-	      </li>
-	      <li>Sert à tracer des schémas pour les géochronologistes</li>
-	      <li>Doit être utilisable pour un grand nombre de schemas</li>
-	      <li>... dans un grand nombre de context (logiciel+librairie)</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Pour l'instant, permet de tracer CE genre de schema</p>
-	    <ul>
-	      <li>Axe X : Le rapport entre deux isotop d'uranium et de plomb</li>
-	      <li>Axe Y : Pareil</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Un ellipse</p>
-	    <ul>
-	      <li>Represente une zone où le ratio entre les deux rapports peut etre</li>
-	      <li>Si les rapports étaient exacts : Point.</li>
-	      <li>Les deux rapports =>Estimés</li>
-	      <li>Donc on a une zone</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Ligne concordia</p>
-	    <ul>
-	      <li>Represente le temps</li>
-	      <li>Plusieurs sortes : Whetherill/<!-- Se renseigner --></li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Afin de produire ce genre de graphique, on a besoin de ce genre de tableaux</p>
-	  </aside>
-	</section>
-
-	<!-- Planning -->
-	<section>
-	  <aside class="notes">
-	    <ul>
-	      <li>Pas de planning en particulier. Methode agile</li>
-	      <li>stage rythmé par un evenement : Presentation aux australiens</li>
-	      <li>Fonction majeures :
-		Avant :
-		<ul>
-		  <li>ColumnSelectorView</li>
-		  <li>Export en SVG</li>
-		</ul>
-	      </li>
-	      <li>
-		Fonction majeure :
-		Après :
-		<ul>
-		  <li>Convertion en FXML</li>
-		  <li>Customisation du graphique</li>
-		</ul>
-	    </ul>
-	  </aside>
-	</section>
-
-	<!--Fonctionnalités -->
-	
-	<!-- Column Selector View -->
-	<section>
-	  <aside class="notes">
-	    <h1>Le ColumnSelectorView</h1>
-	    <ul>
-	      <li>Changement de tableau (Avant : non libre|Apres:Autant de column que l'on veut)</li>
-	      <li>Il faut un outil pour choisir les colonnes ainsi que certaines informations sur les données</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Comment est-ce que le columnselectordialog dit au graphique à quelle colonnes correspondent à quelles données</p>
-	    <ul>
-	      <li>Chaque graphiques prends un converter qui traduit les données qui lui sont passées en ellipses</li>
-	      <li>On passe des Record au graphique, qui en demande la conversion au converter.</li>
-	      <li>Le converter sort ensuite des Ellipses</li>
-	    </ul>
-	    <p>Le columnselectorview produit un converter et le passe au graphique</p>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Au depart j'avais conçu une interface qui donnait la possibilité à n'importe quel objet de generer un graphique</p>
-	    <p>Classe adoptée par le tableau</p>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <!-- Illustration sur comment un action se transforme en bouton -->
-	    <ul>
-	      <li>MAIS : ControlsFX</li>
-	      <li>Actions : Objet qui fait quelque chose en reaction d'un signal à un utilisateur => Controleur</li>
-	      <li>Integré directement à l'interface</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <ul>
-	      <li>CSV transformé en dialog</li>
-	      <li>Action prend en charge la creation du tableau</li>
-	  </aside>
-	</section>
-	
-	<!-- SVG Converter -->
-	<section>
-	  <aside class="notes">
-	    <p>Interet : Geochronologiste exportent leur graphiques
-	      dans le format qu'ils souhaitent</p>
-	    <p>Adobe Illustrator/Inkscape</p>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Approche choisie : transforner directement le rendu de JavaFX en SVG</p>
-	    <p>Base deja implemente par John</p>
-	    <ul>
-	      <li>
-		Pour:
-		<ul>
-		  <li>Réutilisable</li>
-		  <li>Une seule forme de rendu, a un seul endroit : Pas besoin de recoder placement, et apparences...</li>
-		</ul>
-	      </li>
-	      <li>
-		Contre : ... On a besoin de JavaFX dans n'importe quelle situation pour rendre un graphique. (Web generator/Application mobile)
-	      </li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    JavaFX : Hierarchie generale.
-	    <ul>
-	      <li>Node : Base de tous les elements de Javafx</li>
-	      <li>Systeme de hierarchie codé à ce niveau</li>
-	      <li>Utilisé par les classe heritant de nodes (Exemple : Les panneaux)</li>
-	      <li>Plupart des noeuds : composés neuds de bases (Bouton : rectangle/texte/fond)</li>
-	    </ul
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Fonction recursive<br/>
-	    SI :</p>
-	    <ul>
-	      <li>Noeud est un parent : Explore recursivement ses autres noeuds</li>
-	      <li>Noeuds n'as pas d'enfants : Le rend en SVG</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<section>
-	  <!-- before/after -->
-	  <aside class="notes">
-	    <p>MON JOB : Trouver les definitions d'element de base manquant au convertisseur ET corriger celle qui existe deja</p>
-	    <p>documentation + essais => QUELLE PROPRIETE GRAPHIQUES -> SVG</p>
-	    <p>Propiete trouvee : Commenter le before after</p>
-	  </aside>
-	</section>
-	
-	<!-- FXML -->
-	<section>
-	  <aside class="notes">
-	    <p>Apres exploration documentation de Java FX : trouvé
-	    FXML.</p>
-	    <p>REFACTORING</p>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Defining interfaces in XML, then letting JavaFX inflate
-	    them</p>
-	  </aside>
-	</section>
-
-	
-	<section>
-	  <aside class="notes">
-	    <p>Pourquoi refactorer ?</p>
-	    <ul>
-	      <li>Respecter le principe MVC</li>
-	      <li>Alleger le code source</li>
-	      <li>Laisser JavaFX faire plus de truc pour nous (Le code
-	      d'autruit est le meilleurs)</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Gagné :</p>
-	    <ul>
-	      <li>Constructeur moins long</li>
-	      <li>Comportement en methode</li>
-	      <li>Initialisation et mise en page : FXML</li>
-	    </ul>
-	    <p>Ai fait une partie du refactoring</p>
-	  </aside>
-	</section>
-
-	<!-- Customization du diagramme -->
-	<section>
-	  <aside class="notes">
-	    <p>Donner possibilité aux geochronologiste de
-	    personnaliser le schema</p>
-	    <p>Why ?</p>
-	    <ul>
-	      <li>Donner plusieurs manières de visualiser les
-	      mêmes données</li>
-	      <li>Adapter au style publication</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <!-- Custom Panel -->
-	  <aside class="notes">
-	    <p>Commente la fenetre</p>
-	  </aside>
-	</section>
-	
-	<!-- Analyse du retour sur experience -->
-	<section>
-	  <aside class="notes">
-	    <p>3 categories :</p>
-	    <ul>
-	      <li>Technique</li>
-	      <li>Culture générale</li>
-	      <li>Organisationel</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<!-- Technique -->
-	<section>
-	  <aside class="notes">
-	    <p>Librarie JavaFX</p>
-	    <ul>
-	      <li>Rapide, puissante</li>
-	      <li>Nouveaux concepts interessant/pratique : 
-	      Propriete, Hierarchie des noeuds, FXML</li>
-	      <li>Reproches : Documentation faible, bugs de jeunesse et systeme de graph</li>
-	      <li>Reutilisation certaine</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	  <p>Java, les fonction lambda et la programmation fonctionelle</p>
-	  <p>Lambda = nouvelle façon d'instancier une interface à une seule fonction => Code plus clair</p>
-	  <p>Vient de la Programmation Fonctionelle. Etranger à Java. Mais envie apprendre Haskell</p>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Autres :</p>
-	    <ul>
-	      <li>SVG</li>
-	      <li>Maven (Test, compilation automatique, multiple cible)</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Mon préféré : GIT (Conçu pour maintenir Linux à l'origine)</p>
-	    <p>System de versionnage. Ce que j'ai appris :</p>
-	    <ul>
-	      <li>Travailler avec des branches (Chaque branche a un role en particulier</li>
-	      <li>Differentes manieres de communiquer (Pull Request | Push) (Complexité)</li>
-	    </ul>
-	    <p>Git utilisé pour mes projets personnel</p>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Github! (3.5 millions d'utilisateurs | 10 millions de projets)</p>
-	    <p>Site web construit autour de Git</p>
-	    <p>Fourni :</p>
-	    <ul>
-	      <li>Depot git</li>
-	      <li>Issue Tracker (très lié au code)</li>
-	      <li>Wiki</li>
-	      <li>Releases</li>
-	    </ul>
-	  </aside>
-	</section>
-	
-	<!-- Organisation -->
-	<section>
-	  <aside class="notes">
-	    <p>Organisation avec Github</p>
-	    <ul>
-	      <li>Code sur internet | Merge sur Internet</li>
-	      <li>Issue Tracker : 
-		<ul>
-		  <li>Guider le travail (actuel et futur)[Evolution dynamique]</li>
-		  <li>Discuter avec les utilisateurs</li>
-		  <li>Implementé dans le code et fermé directement depuis comit</li>
-		</ul>
-	      </li>
-	      <li>Wiki et readme.md : Utile pour communiquer avec les utilisateurs</li>
-	    </ul>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	    <p>Suivre un projet à plusieurs vitesse</p>
-	    <ul>
-	      <li>Nouvelle librairie</li>
-	      <li>Petites fonctions à implementer</li>
-	    </ul>
-	    <p>Repartition de hommes et du temps. Recheche de solution.</p>
-	  </aside>
-	</section>
-
-	<section>
-	  <aside class="notes">
-	  <p>Vitesse de codage : Periodes très intenses | Periode marathon | Periode lente</p>
-	  <p>Appris à gêrer</p>
-	  </aside>
-	</section>
-	
-	<section>
-	  <aside class="notes">
-	    <p>Doc + test c'est dur</p>
-	    <p>Accepter de perdres du temps</p>
-	  </aside>
-	</section>
-
-
+        <section>
+          <aside class="notes">
+            <p>Sommaire</p>
+          </aside>
+        </section>
+        <!-- Introduction -->
+        <section>
+          <aside class="notes">
+            <ul>
+              <li>Calendrier</li>
+              <li>Integralite de existance terre <em>4.6 milliards d'ann&#xE9;e compress&#xE9; en 365 jours : 145 ann&#xE9;e la seconde </em> =&gt; calendrier</li>
+              <li>
+                <p>Mettons quelques informations :</p>
+                <ul>
+                  <li>Apparitions de la vie : 27 mars</li>
+                  <li>Apparitions des animaux : 8 novembre</li>
+                  <li>Apparition des premiers humano&#xEF;de : 31 d&#xE9;cembre a midi</li>
+                  <li>Deux guerres mondiales : Derni&#xE8;re seconde</li>
+                </ul>
+              </li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <ul>
+              <li>Travail des g&#xE9;ochronologistes : determiner l'&#xE2;ge d'objets terrestres</li>
+              <li>Projet Topsoil : G&#xE9;n&#xE8;rer des sch&#xE9;mas pour g&#xE9;ochronologistes</li>
+              <li>Laboratoire CIRDLES</li>
+              <li>12 avril =&gt; Aujourd'hui</li>
+              <li>Chef : Dr. Jim Bowring | Partenaire : John Zeringue</li>
+            </ul>
+          </aside>
+        </section>
+        <!-- Explication du contexte -->
+        <section>
+          <aside class="notes">
+            <ul>
+              <li>Eruption de volcan.</li>
+              <ul>
+                <li>De la lave en sort</li>
+                <li>Mais aussi des Zircons</li>
+              </ul>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Zircon :</p>
+            <ul>
+              <li>Capsule : une fois construit, plus rien n'en sort</li>
+              <li>Bourr&#xE9; d'uranium</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Temps passe</p>
+            <ul>
+              <li>De nouvelles couche terrestres se forment</li>
+              <li>Inside zircon : Uranium =&gt; plomb</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Scientifiques deterrent les zircons. calculent le rapport entre plomb et uranium.</p>
+            <p>=&gt; AGE DE LA COUCHE TERRESTRE</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Topsoil :</p>
+            <ul>
+              <li>
+                <p>Remplacant d'Isoplot</p>
+                <ul>
+                  <li>Vieux plug-in d'Excel</li>
+                  <li>Plus mis &#xE0; jour, fonctionne que sur de vieilles machines</li>
+                  <li>Non int&#xE9;grable</li>
+                </ul>
+              </li>
+              <li>Sert &#xE0; tracer des sch&#xE9;mas pour les g&#xE9;ochronologistes</li>
+              <li>Doit &#xEA;tre utilisable pour un grand nombre de schemas</li>
+              <li>... dans un grand nombre de context (logiciel+librairie)</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Pour l'instant, permet de tracer CE genre de schema</p>
+            <ul>
+              <li>Axe X : Le rapport entre deux isotop d'uranium et de plomb</li>
+              <li>Axe Y : Pareil</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Un ellipse</p>
+            <ul>
+              <li>Represente une zone o&#xF9; le ratio entre les deux rapports peut etre</li>
+              <li>Si les rapports &#xE9;taient exacts : Point.</li>
+              <li>Les deux rapports =&gt;Estim&#xE9;s</li>
+              <li>Donc on a une zone</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Ligne concordia</p>
+            <ul>
+              <li>Represente le temps</li>
+              <li>Plusieurs sortes : Whetherill/<!-- Se renseigner --></li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Afin de produire ce genre de graphique, on a besoin de ce genre de tableaux</p>
+          </aside>
+        </section>
+        <!-- Planning -->
+        <section>
+          <aside class="notes">
+            <ul>
+              <li>Pas de planning en particulier. Methode agile</li>
+              <li>stage rythm&#xE9; par un evenement : Presentation aux australiens</li>
+              <li>
+                <p>Fonction majeures :<br/>
+Avant :</p>
+                <ul>
+                  <li>ColumnSelectorView</li>
+                  <li>Export en SVG</li>
+                </ul>
+              </li>
+              <li>
+                <p>Apr&#xE8;s :</p>
+                <ul>
+                  <li>Convertion en FXML</li>
+                  <li>Customisation du graphique</li>
+                </ul>
+              </li>
+            </ul>
+          </aside>
+        </section>
+        <!--Fonctionnalités -->
+        <!-- Column Selector View -->
+        <section>
+          <aside class="notes">
+            <h1>Le ColumnSelectorView</h1>
+            <ul>
+              <li>Changement de tableau (Avant : non libre|Apres:Autant de column que l'on veut)</li>
+              <li>Il faut un outil pour choisir les colonnes ainsi que certaines informations sur les donn&#xE9;es</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Comment est-ce que le columnselectordialog dit au graphique &#xE0; quelle colonnes correspondent &#xE0; quelles donn&#xE9;es</p>
+            <ul>
+              <li>Chaque graphiques prends un converter qui traduit les donn&#xE9;es qui lui sont pass&#xE9;es en ellipses</li>
+              <li>On passe des Record au graphique, qui en demande la conversion au converter.</li>
+              <li>Le converter sort ensuite des Ellipses</li>
+            </ul>
+            <p>Le columnselectorview produit un converter et le passe au graphique</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Au depart j'avais con&#xE7;u une interface qui donnait la possibilit&#xE9; &#xE0; n'importe quel objet de generer un graphique</p>
+            <p>Classe adopt&#xE9;e par le tableau</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <!-- Illustration sur comment un action se transforme en bouton -->
+            <ul>
+              <li>MAIS : ControlsFX</li>
+              <li>Actions : Objet qui fait quelque chose en reaction d'un signal &#xE0; un utilisateur =&gt; Controleur</li>
+              <li>Integr&#xE9; directement &#xE0; l'interface</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <ul>
+              <li>CSV transform&#xE9; en dialog</li>
+              <li>Action prend en charge la creation du tableau</li>
+            </ul>
+          </aside>
+        </section>
+        <!-- SVG Converter -->
+        <section>
+          <aside class="notes">
+            <p>Interet : Geochronologiste exportent leur graphiques
+dans le format qu'ils souhaitent</p>
+            <p>Adobe Illustrator/Inkscape</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Approche choisie : transforner directement le rendu de JavaFX en SVG</p>
+            <p>Base deja implemente par John</p>
+            <ul>
+              <li>
+                <p>Pour:</p>
+                <ul>
+                  <li>R&#xE9;utilisable</li>
+                  <li>Une seule forme de rendu, a un seul endroit : Pas besoin de recoder placement, et apparences...</li>
+                </ul>
+              </li>
+              <li>Contre : ... On a besoin de JavaFX dans n'importe quelle situation pour rendre un graphique. (Web generator/Application mobile)</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>JavaFX : Hierarchie generale.</p>
+            <ul>
+              <li>Node : Base de tous les elements de Javafx</li>
+              <li>Systeme de hierarchie cod&#xE9; &#xE0; ce niveau</li>
+              <li>Utilis&#xE9; par les classe heritant de nodes (Exemple : Les panneaux)</li>
+              <li>Plupart des noeuds : compos&#xE9;s neuds de bases (Bouton : rectangle/texte/fond)</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Fonction recursive<br/> SI :</p>
+            <ul>
+              <li>Noeud est un parent : Explore recursivement ses autres noeuds</li>
+              <li>Noeuds n'as pas d'enfants : Le rend en SVG</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <!-- before/after -->
+          <aside class="notes">
+            <p>MON JOB : Trouver les definitions d'element de base manquant au convertisseur ET corriger celle qui existe deja</p>
+            <p>documentation + essais =&gt; QUELLE PROPRIETE GRAPHIQUES -&gt; SVG</p>
+            <p>Propiete trouvee : Commenter le before after</p>
+          </aside>
+        </section>
+        <!-- FXML -->
+        <section>
+          <aside class="notes">
+            <p>Apres exploration documentation de Java FX : trouv&#xE9; FXML.</p>
+            <p>REFACTORING</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Defining interfaces in XML, then letting JavaFX inflate them</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Pourquoi refactorer ?</p>
+            <ul>
+              <li>Respecter le principe MVC</li>
+              <li>Alleger le code source</li>
+              <li>Laisser JavaFX faire plus de truc pour nous (Le code
+		d'autruit est le meilleurs)</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Gagn&#xE9; :</p>
+            <ul>
+              <li>Constructeur moins long</li>
+              <li>Comportement en methode</li>
+              <li>Initialisation et mise en page : FXML</li>
+            </ul>
+            <p>Ai fait une partie du refactoring</p>
+          </aside>
+        </section>
+        <!-- Customization du diagramme -->
+        <section>
+          <aside class="notes">
+            <p>Donner possibilit&#xE9; aux geochronologiste de personnaliser le schema</p>
+            <p>Why ?</p>
+            <ul>
+              <li>Donner plusieurs mani&#xE8;res de visualiser les m&#xEA;mes donn&#xE9;es</li>
+              <li>Adapter au style publication</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <!-- Custom Panel -->
+          <aside class="notes">
+            <p>Commente la fenetre</p>
+          </aside>
+        </section>
+        <!-- Analyse du retour sur experience -->
+        <section>
+          <aside class="notes">
+            <p>3 categories :</p>
+            <ul>
+              <li>Technique</li>
+              <li>Culture g&#xE9;n&#xE9;rale</li>
+              <li>Organisationel</li>
+            </ul>
+          </aside>
+        </section>
+        <!-- Technique -->
+        <section>
+          <aside class="notes">
+            <p>Librarie JavaFX</p>
+            <ul>
+              <li>Rapide, puissante</li>
+              <li>Nouveaux concepts interessant/pratique : Propriete, Hierarchie des noeuds, FXML</li>
+              <li>Reproches : Documentation faible, bugs de jeunesse et systeme de graph</li>
+              <li>Reutilisation certaine</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Java, les fonction lambda et la programmation fonctionelle</p>
+            <p>Lambda = nouvelle fa&#xE7;on d'instancier une interface &#xE0; une seule fonction =&gt; Code plus clair</p>
+            <p>Vient de la Programmation Fonctionelle. Etranger &#xE0; Java. Mais envie apprendre Haskell</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Autres :</p>
+            <ul>
+              <li>SVG</li>
+              <li>Maven (Test, compilation automatique, multiple cible)</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Mon pr&#xE9;f&#xE9;r&#xE9; : GIT (Con&#xE7;u pour maintenir Linux &#xE0; l'origine)</p>
+            <p>System de versionnage. Ce que j'ai appris :</p>
+            <ul>
+              <li>Travailler avec des branches (Chaque branche a un role en particulier</li>
+              <li>Differentes manieres de communiquer (Pull Request | Push) (Complexit&#xE9;)</li>
+            </ul>
+            <p>Git utilis&#xE9; pour mes projets personnel</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Github! (3.5 millions d'utilisateurs | 10 millions de projets)</p>
+            <p>Site web construit autour de Git</p>
+            <p>Fourni :</p>
+            <ul>
+              <li>Depot git</li>
+              <li>Issue Tracker (tr&#xE8;s li&#xE9; au code)</li>
+              <li>Wiki</li>
+              <li>Releases</li>
+            </ul>
+          </aside>
+        </section>
+        <!-- Organisation -->
+        <section>
+          <aside class="notes">
+            <p>Organisation avec Github</p>
+            <ul>
+              <li>Code sur internet | Merge sur Internet</li>
+              <li>
+                <p>Issue Tracker :</p>
+                <ul>
+                  <li>Guider le travail (actuel et futur)[Evolution dynamique]</li>
+                  <li>Discuter avec les utilisateurs</li>
+                  <li>Implement&#xE9; dans le code et ferm&#xE9; directement depuis comit</li>
+                </ul>
+              </li>
+              <li>Wiki et readme.md : Utile pour communiquer avec les utilisateurs</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Suivre un projet &#xE0; plusieurs vitesse</p>
+            <ul>
+              <li>Nouvelle librairie</li>
+              <li>Petites fonctions &#xE0; implementer</li>
+            </ul>
+            <p>Repartition de hommes et du temps. Recheche de solution.</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Vitesse de codage : Periodes tr&#xE8;s intenses | Periode marathon | Periode lente</p>
+            <p>Appris &#xE0; g&#xEA;rer</p>
+          </aside>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Doc + test c'est dur</p>
+            <p>Accepter de perdres du temps</p>
+          </aside>
+        </section>
       </div>
     </div>
   </body>
-
-
 </html>

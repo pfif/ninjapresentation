@@ -5,4 +5,8 @@ La présentation que je dois effectuer à la fin de mon stage au college de Char
 
 Why is it called **The Ninja Presentation** instead of *Presentation de mon stage au laboratoire CIRDLES au College de Charleston* ? You'd have to see pfif/ninjareport's description to find out.
 
+#Technical notes
+
 This presentation is based on the hakimel/reveal.js, a neat library for making presentation in Javascript. The library is not embeded in the git repository, the project is just link to a CDN-hosted version of it.
+
+Indentation of the ```index.html``` file is made thanks to ```xmllint```. Commits must always be formatted thanks to this software.
