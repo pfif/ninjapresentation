@@ -456,17 +456,37 @@ dans le format qu'ils souhaitent</p>
         </section>
         <!-- FXML -->
         <section>
+          <h2>Conversion des interfaces en FXML</h2>
           <aside class="notes">
             <p>Apres exploration documentation de Java FX : trouv&#xE9; FXML.</p>
             <p>REFACTORING</p>
           </aside>
         </section>
         <section>
+          <img src="images/explication_fxml.png" alt="Explication de ce que fait le FXML. Au lieu d'un code ou tout se m&#xE9;lange, on s&#xE9;pare la pr&#xE9;sentation du comportement"/>
           <aside class="notes">
             <p>Defining interfaces in XML, then letting JavaFX inflate them</p>
           </aside>
         </section>
         <section>
+          <pre>
+            <code>
+	class SimplePane extends VBox{
+
+  public SimplePane(){
+    
+    Label label = new Label("Vincent Vega");
+    Button bouton = new Button("Change brother");
+    bouton.setOnAction((ActionEvent e) -&gt; {
+      label.setText("Vic Vega");
+    });
+
+    getChildren().add(bouton);
+    getChildren().add(label);
+  }
+}
+	</code>
+          </pre>
           <aside class="notes">
             <p>Pourquoi refactorer ?</p>
             <ul>
@@ -478,6 +498,33 @@ dans le format qu'ils souhaitent</p>
           </aside>
         </section>
         <section>
+          <pre>
+            <code>
+class SimplePane extends VBox{
+
+  @FXML private Label label;
+
+  public SimplePane(){
+    FXMLLoader loader = new FXMLLoader(getClass().getResource("chartcustomizationpanel.fxml"),
+                                           ResourceBundle.getBundle("org.cirdles.topsoil.Resources"));
+    loader.setRoot(this);
+    loader.setController(this);
+
+    try {
+      loader.load();
+    } catch (IOException e) {
+      getChildren().add(new Label("There was an error loading this part of the panel."));
+      e.printStackTrace();
+    }
+  }
+
+  @FXML
+  private void changeBrother(){
+    label.setText("Vic Vega");
+  }
+}
+	</code>
+          </pre>
           <aside class="notes">
             <p>Gagn&#xE9; :</p>
             <ul>
