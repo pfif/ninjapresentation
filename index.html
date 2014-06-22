@@ -399,6 +399,8 @@ Avant :</p>
         </section>
         <!-- SVG Converter -->
         <section>
+          <h2>Le <em>SVG Converter</em></h2>
+          <p>Il permet au g&#xE9;ochronologistes de convertir un graphique dans un format vectoriel, le SVG.</p>
           <aside class="notes">
             <p>Interet : Geochronologiste exportent leur graphiques
 dans le format qu'ils souhaitent</p>
@@ -406,6 +408,7 @@ dans le format qu'ils souhaitent</p>
           </aside>
         </section>
         <section>
+          <p>Un convertisseur d'interface JavaFX en SVG a pour cela &#xE9;t&#xE9; cr&#xE9;&#xE9;</p>
           <aside class="notes">
             <p>Approche choisie : transforner directement le rendu de JavaFX en SVG</p>
             <p>Base deja implemente par John</p>
@@ -422,6 +425,7 @@ dans le format qu'ils souhaitent</p>
           </aside>
         </section>
         <section>
+          <img src="images/hierarchiejavafx.png" alt="La hierarchie des objets dans JavaFX"/>
           <aside class="notes">
             <p>JavaFX : Hierarchie generale.</p>
             <ul>
@@ -433,6 +437,7 @@ dans le format qu'ils souhaitent</p>
           </aside>
         </section>
         <section>
+          <img src="images/algo_svg.png" alt="Explication de la fonction SVG. Elle explore recusrivement tous les enfants d'un noeud et ne rend que la hierarchie."/>
           <aside class="notes">
             <p>Fonction recursive<br/> SI :</p>
             <ul>
@@ -442,7 +447,7 @@ dans le format qu'ils souhaitent</p>
           </aside>
         </section>
         <section>
-          <!-- before/after -->
+          <img src="images/travail_svg.png" alt="Mon travail sur le convertisseur SVG est de trouver les propri&#xE9;t&#xE9;s graphiques de JavaFX et de les appliquer au SVG"/>
           <aside class="notes">
             <p>MON JOB : Trouver les definitions d'element de base manquant au convertisseur ET corriger celle qui existe deja</p>
             <p>documentation + essais =&gt; QUELLE PROPRIETE GRAPHIQUES -&gt; SVG</p>
